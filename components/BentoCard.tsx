@@ -53,7 +53,7 @@ export default function BentoCard({
       whileHover={{ y: -4 }}
       className={[
         sizeClasses[size],
-        "group relative isolate flex min-h-[11rem] flex-col justify-between overflow-hidden rounded-card border p-6 transition-colors duration-300 sm:p-7",
+        "group relative isolate flex flex-col overflow-hidden rounded-card border p-6 transition-colors duration-300 sm:p-7",
         accent
           ? "border-transparent bg-paper text-ink"
           : "border-ink-600 bg-ink-800 text-paper hover:border-paper/30",
@@ -77,7 +77,7 @@ export default function BentoCard({
         </span>
       )}
 
-      <div className="mt-6">
+      <div className={item.kicker ? "mt-6" : ""}>
         <h3
           className={[
             "font-display font-bold tracking-tightest",
