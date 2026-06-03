@@ -21,6 +21,30 @@ body {
   color: #050505;
 }
 
+/* Entrance animation driven entirely by CSS so content is always revealed,
+   even if client-side JS never runs (e.g. on the static GitHub Pages build).
+   Stagger is applied per-element via an inline `animation-delay`. */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  animation: reveal-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    animation: none;
+  }
+}
+
 /* Subtle blueprint grid used behind the hero. */
 .bg-grid {
   background-image: linear-gradient(
