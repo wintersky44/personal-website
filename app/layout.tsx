@@ -23,9 +23,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Index — A Working Mind",
+  title: "Varun's Website",
   description:
-    "A personal page on data science, philosophy, free will, consciousness, and the absurd.",
+    "A personal page about myself",
 };
 
 export default function RootLayout({

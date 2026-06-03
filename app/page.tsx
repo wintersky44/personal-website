@@ -10,7 +10,6 @@ export default function Home() {
     <main className="relative mx-auto min-h-screen w-full max-w-6xl px-5 pb-28 sm:px-8">
       {/* Top bar */}
       <nav className="flex items-center justify-between py-6 font-mono text-[11px] uppercase tracking-[0.18em] text-paper-dim">
-        <span>2025</span>
       </nav>
 
       <Hero hero={hero} />

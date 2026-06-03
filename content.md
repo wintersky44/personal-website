@@ -29,7 +29,7 @@ bento:
   - id: "absurdism"
     title: "Camus & the absurd"
     size: "wide"
-    body: "There is no ultimate meaning to any of it. I believe we can still live happily anyway."
+    body: "There is no ultimate meaning to anything, I believe we can still live happily anyway."
 ---
 
 # About me
