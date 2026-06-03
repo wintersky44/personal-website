@@ -17,8 +17,6 @@ export default function Home() {
       <BentoGrid items={bento} />
 
       <footer className="mt-20 flex flex-col items-start justify-between gap-3 border-t border-ink-600 pt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-paper-dim sm:flex-row sm:items-center">
-        <span>Currently — thinking.</span>
-        <span>Built from content.md</span>
       </footer>
     </main>
   );
