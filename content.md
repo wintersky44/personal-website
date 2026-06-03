@@ -1,7 +1,7 @@
 ---
 hero: 
   title: "Hi, i'm Varun"
-  subtitle: "I'm 22. My world spans data science and ML, philosophy, film and television, long nights reading Wikipedia, browsing social media, and playing rocket league."
+  subtitle: "a 22 year old whose interests include data science and ML, philosophy, film and television, reading Wikipedia, browsing social media, and playing rocket league."
 bento:
   - id: "questions" 
     title: "Questions"
@@ -14,9 +14,9 @@ bento:
       - "Existentialism"
       - "Metaphysics"
   - id: "free-will"
-    title: "On free will"
+    title: "On Free Will"
     size: "normal"
-    body: "I've spent a significant amount of my time in the free will and moral responsibility debates. My favorite a priori arguments against free will are Galen Strawson's argument of infinite regress and Nietzsche's appeal to the nature of causa sui. I'm also drawn to Derk Pereboom's work -- his hard incompatibilist position and his manipulation arguments."
+    body: "I've spent a significant amount of my time reading about the free will and moral responsibility debates. My favorite a priori arguments against free will are Galen Strawson's argument of infinite regress and Nietzsche's appeal to the nature of causa sui. I'm also drawn to Derk Pereboom's work -- his hard incompatibilist position and his manipulation arguments."
   - id: "amor-fati"
     title: "Amor Fati"
     size: "normal"
