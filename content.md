@@ -1,7 +1,7 @@
 ---
 hero: 
-  title: "Hi, i'm Varun"
-  subtitle: "a 22 year old whose interests include data science and ML, philosophy, film and television, reading Wikipedia, browsing social media, and playing rocket league."
+  title: "Hi, i'm V"
+  subtitle: "a 22 year old whose interests include philosophy, film and television, reading Wikipedia, browsing social media, and playing rocket league."
 bento:
   - id: "questions" 
     title: "Questions"
@@ -18,16 +18,16 @@ bento:
     size: "normal"
     body: "I've spent a significant amount of my time reading about the free will and moral responsibility debates. My favorite a priori arguments against free will are Galen Strawson's argument of infinite regress and Nietzsche's appeal to the nature of causa sui. I'm also drawn to Derk Pereboom's work -- his hard incompatibilist position and his manipulation arguments."
   - id: "amor-fati"
-    title: "Amor Fati"
+    title: "Eternal recurrence and Amor Fati"
     size: "normal"
     accent: true
-    body: "Free will not existing isn't necessarily a bad thing. It can lead to more compassion toward others -- and, more importantly, to a love of one's fate."
+    body: "This is the only time you're going to be alive. Now imagine you had to live the same life for an infinite number of times, would you say yes to that? Can you radically affirm your life?"
   - id: "consciousness"
     title: "The hard problem of consciousness"
     size: "normal"
     body: "How can a first-person, subjective experience arise from physical matter?"
   - id: "absurdism"
-    title: "Camus & the absurd"
+    title: "Camus and the absurd"
     size: "wide"
     body: "There is no ultimate meaning to anything, I believe we can still live happily anyway."
 ---
