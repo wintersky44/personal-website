@@ -23,7 +23,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Varun's Website",
+  title: "V's Website",
   description:
     "A personal page about myself",
 };

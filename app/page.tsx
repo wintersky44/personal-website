@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import BentoGrid from "@/components/BentoGrid";
 
 export default function Home() {
-  // Parsed from content.md on the server — the source of truth for all copy.
   const { hero, bento } = getContent();
 
   return (
@@ -13,6 +12,11 @@ export default function Home() {
       </nav>
 
       <Hero hero={hero} />
+      <div className="mt-2 mb-8">
+        <h2 className="mt-1 text-3xl sm:text-4xl font-display font-medium tracking-tightest text-paper">
+          Some thoughts
+        </h2>
+      </div>
       <BentoGrid items={bento} />
 
       <footer className="mt-20 flex flex-col items-start justify-between gap-3 border-t border-ink-600 pt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-paper-dim sm:flex-row sm:items-center">

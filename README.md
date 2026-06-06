@@ -1,4 +1,5 @@
-# personal-website
+# vibe coded personal-website
+### (using claude code, cost like 10 dollars)
 
 A high-end, product-style landing page — dark minimalist-brutalist aesthetic, bento-box grid, bold typography, and premium micro-interactions. All copy is driven by `content.md`.
 
