@@ -7,7 +7,6 @@ export default function Hero({ hero }: { hero: HeroData }) {
       <div className="bg-grid pointer-events-none absolute inset-0 -z-10" />
 
       <p className="reveal mb-7 inline-flex items-center gap-2 border border-ink-600 bg-ink-800/60 px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.22em] text-paper-dim">
-        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-paper" />
         {hero.kicker}
       </p>
 
